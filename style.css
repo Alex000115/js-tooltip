@@ -1,0 +1,27 @@
+body{
+  background:#020617;
+  color:white;
+  font-family:Arial;
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.wrapper{
+  position:relative;
+}
+button{
+  padding:10px 18px;
+}
+.tooltip{
+  position:absolute;
+  bottom:45px;
+  left:50%;
+  transform:translateX(-50%);
+  background:#111827;
+  padding:6px 10px;
+  border-radius:6px;
+  display:none;
+  font-size:14px;
+  white-space:nowrap;
+}
